@@ -1,18 +1,19 @@
 *{
 margin: 0;
 padding: 0;
+align-content: center;
 }
 
 body{ 
 
-	background-color: black;
+	background-color: white;
 
  }
 
 nav{
 width: 100%;
 height: 100px;
-background-color: white;
+background-color: lightgrey;
 }
 
 ul{
@@ -37,18 +38,77 @@ ul li a{
 
 ul li a:hover{
 color: red;
+
 }
 
 .legend2{
-color: limegreen;}
+color: black;
+text-align: center;
+}
 
 .footer{
 color: #1e1e1e;
 }
 
 footer{
-background-color: white;
+background-color: lightgrey;
 width: 100%;
 height: 100px;
 line-height: 100px;
+text-align: center;
+}
+
+h1{
+color: black;
+font-size: 60px;
+text-align: center;
+text-decoration: underline;
+}
+
+.tbffr{color: black;
+text-align: center;
+}
+
+.hotline{
+color: black;
+text-align: center;
+}
+
+p{color: black;}
+
+
+
+.title{
+text-align: center;
+text-decoration: underline;
+color: white;
+}
+
+.imgmain{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.quotes{
+text-align: center;
+}
+
+header{
+background-color: black;
+width: 100%;
+}
+
+.spacer{
+background-color: white;
+width: 100%;
+height: 50px;
+
+.spacer2{
+width: 100%;
+height: 20px;
+
+}
+
+
 }
